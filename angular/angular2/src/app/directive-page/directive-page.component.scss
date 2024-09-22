@@ -1,0 +1,42 @@
+.box {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+  }
+  
+  .active {
+    background-color: green;
+    color:black !important;
+  }
+  
+  .inactive {
+    background-color: red;
+    color:black !important;
+  }
+  
+  .highlight {
+    color:black !important;
+    border: 2px solid yellow;
+  }
+  
+  .dimmed {
+    opacity: 0.5;
+  }
+  
+
+  .product {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .electronics {
+    background-color: #e0f7fa;
+  }
+  
+  .clothing {
+    background-color: #fce4ec;
+  }
+  

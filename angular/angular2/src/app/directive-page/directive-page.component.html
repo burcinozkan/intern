@@ -1,0 +1,136 @@
+<h3>ngFor ngIf - Structural directive</h3>
+<div>
+    <button (click)="toggleVisibility()">Toggle Visibility</button>
+</div>
+<ul>
+    <ng-container *ngIf="isVisible">
+        <li *ngFor="let item of items">{{ item }}</li>
+    </ng-container>
+</ul>
+
+
+
+<hr>
+<h3>ngClass - ngStyle - Structural directive</h3>
+
+<div>
+    <button (click)="toggleNgClass()">NgClass Toggle</button>
+</div>
+<div [ngClass]="{'active': isActive, 'inactive': !isActive}" class="box">
+    Durum: {{ isActive ? 'Aktif' : 'Pasif' }}
+</div>
+<hr>
+
+
+
+
+<h5> birden fazla class verme </h5>
+<br>
+
+<div>
+    <button (click)="toggleNgClassOneMore()">NgClass Toggle</button>
+</div>
+
+<div [ngClass]="{
+    'active': toggleNgClassOneMoreDiv,
+    'inactive': !toggleNgClassOneMoreDiv,
+    'highlight': toggleNgClassOneMoreDiv,
+    'dimmed': !toggleNgClassOneMoreDiv
+  }" class="box">
+    Durum: {{ toggleNgClassOneMoreDiv ? 'Aktif' : 'Pasif ve Soluk' }}
+</div>
+<hr>
+
+
+<br><br>
+
+
+
+<div>
+    <button (click)="toggleNgStyleClass()">ngStyle Toggle</button>
+</div>
+
+<div [ngStyle]="{'color': isActiveNgStyle ? 'green' : 'red'}">Stil</div>
+<br>
+
+<h5>birden fazla stli verme</h5>
+<div [ngStyle]="{
+    'color': isActiveNgStyle ? 'green' : 'red',
+    'font-size': isActiveNgStyle ? '18px' : '14px',
+    'font-style': isActiveNgStyle ? 'italic' : 'normal',
+    'font-weight': isActiveNgStyle ? 'bold' : 'normal'
+  }">
+    Stil: {{ isActiveNgStyle ? 'Yeşil, 18px, Italic, Bold' : 'Kırmızı, 14px, Normal, Normal' }}
+</div>
+
+<br><br>
+
+<hr>
+
+<h5>ngTemplate - ngTemplateOutlet </h5>
+
+<h5> Şartlı İçerik Gösterimi </h5>
+
+<div>
+    <button (click)="toggleVisibility()">Toggle Visibility</button>
+</div>
+
+<div *ngIf="isVisible; else elseBlock">
+    Bu içerik görünür.
+</div>
+
+<ng-template #elseBlock>
+    Bu içerik gizlidir.
+</ng-template>
+
+<br><br>
+
+<hr>
+
+<h5> Dinamik şablon oluşturma</h5>
+
+<ng-container *ngTemplateOutlet="template"></ng-container>
+
+<ng-template #template>
+    <div>Bu dinamik bir şablondur.</div>
+</ng-template>
+
+
+
+<br><br>
+
+<hr>
+
+<h5>Şablon Referansları ile Çalışma</h5>
+
+<ng-template #myTemplate let-name="name">
+    <div>Merhaba, {{ name }}</div>
+</ng-template>
+
+<div *ngFor="let item of items">
+    <ng-container *ngTemplateOutlet="myTemplate; context: { name: item }"></ng-container>
+</div>
+
+
+<!-- --------------------------- -->
+
+<br><br>
+
+<div *ngFor="let product of products">
+    <ng-container *ngTemplateOutlet="getTemplate(product.type); context: { product: product }">
+    </ng-container>
+</div>
+
+<ng-template #electronicsTemplate let-product="product">
+    <div class="product electronics">
+        <h3>{{ product.name }} (Electronics)</h3>
+        <p>Price: ${{ product.price }}</p>
+    </div>
+</ng-template>
+
+<ng-template #clothingTemplate let-product="product">
+    <div class="product clothing">
+        <h3>{{ product.name }} (Clothing)</h3>
+        <p>Price: ${{ product.price }}</p>
+    </div>
+</ng-template>

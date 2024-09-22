@@ -1,0 +1,47 @@
+<div class="container">
+    <h2>Reactive Form Örneği</h2>
+    <form [formGroup]="myForm">
+        <div class="form-group">
+            <label for="name">Ad</label>
+            <input id="name" class="form-control" formControlName="name">
+            <div *ngIf="getControl('name')?.invalid && getControl('name')?.touched" class="text-danger">
+                Ad gereklidir.
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-posta</label>
+            <input id="email" class="form-control" formControlName="email">
+            <div *ngIf="getControl('email')?.invalid && getControl('email')?.touched" class="text-danger">
+                Geçerli bir e-posta gereklidir.
+            </div>
+        </div>
+
+        <div formArrayName="phones" class="form-group">
+            <label>Telefon Numaraları</label>
+            <button type="button" class="btn btn-secondary mb-2" (click)="addPhone()">Telefon Ekle</button>
+            <div *ngFor="let phone of phones.controls; let i = index" class="d-flex align-items-center">
+                <input [formControlName]="i" class="form-control mt-2">
+                <button *ngIf="i > 0" type="button" class="btn btn-danger ml-2 mt-2" (click)="removePhone(i)">
+                    Sil
+                </button>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" (click)="save()">Gönder</button>
+    </form>
+
+    <h3 *ngIf="savedForms.length>0">Kaydedilen Formlar</h3>
+    <ul class="list-group">
+        <li *ngFor="let form of savedForms; let i = index" class="list-group-item">
+            <p>Ad: {{ form.name }}</p>
+            <p>E-posta: {{ form.email }}</p>
+            <p>Telefonlar:</p>
+            <ul>
+                <li *ngFor="let phone of form.phones">{{ phone }}</li>
+            </ul>
+            <button type="button" class="btn btn-primary" (click)="edit(i)">Düzenle</button>
+            <button type="button" class="btn btn-danger" (click)="delete(i)">Sil</button>
+        </li>
+    </ul>
+</div>
