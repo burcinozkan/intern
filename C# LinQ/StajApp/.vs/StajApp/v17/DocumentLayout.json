@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|c:\\users\\sertan.kula\\source\\repos\\stajapp\\stajapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|solutionrelative:stajapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|c:\\users\\sertan.kula\\source\\repos\\stajapp\\stajapp\\carpmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|solutionrelative:stajapp\\carpmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|c:\\users\\sertan.kula\\source\\repos\\stajapp\\stajapp\\proje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|solutionrelative:stajapp\\proje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|c:\\users\\sertan.kula\\source\\repos\\stajapp\\stajapp\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|solutionrelative:stajapp\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|c:\\users\\sertan.kula\\source\\repos\\stajapp\\stajapp\\compareequalitypersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|solutionrelative:stajapp\\compareequalitypersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|c:\\users\\sertan.kula\\source\\repos\\stajapp\\stajapp\\comparepersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D090E-33E5-4E74-B1C3-B91449898060}|StajApp\\StajApp.csproj|solutionrelative:stajapp\\comparepersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarpMax.cs",
+              "DocumentMoniker": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\CarpMax.cs",
+              "RelativeDocumentMoniker": "StajApp\\CarpMax.cs",
+              "ToolTip": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\CarpMax.cs",
+              "RelativeToolTip": "StajApp\\CarpMax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:45:23.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proje.cs",
+              "DocumentMoniker": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\Proje.cs",
+              "RelativeDocumentMoniker": "StajApp\\Proje.cs",
+              "ToolTip": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\Proje.cs",
+              "RelativeToolTip": "StajApp\\Proje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:51:22.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompareEqualityPersonel.cs",
+              "DocumentMoniker": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\CompareEqualityPersonel.cs",
+              "RelativeDocumentMoniker": "StajApp\\CompareEqualityPersonel.cs",
+              "ToolTip": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\CompareEqualityPersonel.cs",
+              "RelativeToolTip": "StajApp\\CompareEqualityPersonel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:45:11.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComparePersonel.cs",
+              "DocumentMoniker": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\ComparePersonel.cs",
+              "RelativeDocumentMoniker": "StajApp\\ComparePersonel.cs",
+              "ToolTip": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\ComparePersonel.cs",
+              "RelativeToolTip": "StajApp\\ComparePersonel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:31:05.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personel.cs",
+              "DocumentMoniker": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\Personel.cs",
+              "RelativeDocumentMoniker": "StajApp\\Personel.cs",
+              "ToolTip": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\Personel.cs",
+              "RelativeToolTip": "StajApp\\Personel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:14:59.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\Program.cs",
+              "RelativeDocumentMoniker": "StajApp\\Program.cs",
+              "ToolTip": "C:\\Users\\sertan.kula\\source\\repos\\StajApp\\StajApp\\Program.cs",
+              "RelativeToolTip": "StajApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T07:03:36.431Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
